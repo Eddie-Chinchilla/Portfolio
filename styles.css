@@ -1,0 +1,86 @@
+
+/* Variables */
+:root{
+    /* COLORS */
+    --bg-color: #191f24;
+    --bg-alternate: #11262d;
+    --main-color: #23b5d3;
+    --accent-color: #bc4b51;
+    --white: #dfe0e2;
+
+    /* FONTS */
+    --main-font: 'Oxygen', sans-serif;
+
+    /* LAYOUT */
+    --center-1em: 1em auto;
+}
+
+/*----------------------------------------------------------------------*/
+
+
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* LAYOUT */
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav {
+    margin: 1em auto 3em;
+    justify-content: space-evenly;
+}
+
+section {
+    width: 90%;
+    margin: var(--center-1em);
+}
+/*----------------------------------------------------------------------*/
+
+
+/* Themes */
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--bg-color);
+    color: var(--white);
+}
+
+a {
+    color: var(--white);
+}
+
+.logo {
+    border-bottom: 2px solid var(--main-color);
+}
+.logo p{
+    font-size: 2rem;
+    margin: 0.5em;
+}
+
+
+
+
